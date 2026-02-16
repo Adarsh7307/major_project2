@@ -11,7 +11,7 @@ module.exports.indix=async (req, res) => {
 };
 
 module.exports.renderNewForm=(req, res) => {
-  res.render("listings/new");
+  res.render("listings/new")
 };
 
 module.exports.showListing=async(req,res) =>{
